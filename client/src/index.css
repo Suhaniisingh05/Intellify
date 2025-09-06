@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Libre+Baskerville:wght@400;700&display=swap');
+
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'BodoniFLF-BoldItalic';
+  src: url('./fonts/BodoniFLF-BoldItalic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@theme
+{
+  --font-sans: "BodoniFLF-BoldItalic", "serif";
+  --font-libre: "Libre Baskerville", "serif";
+}
+
+.reset-tw , .reset-tw *{
+  all : revert !important;
+}
+
+.cl-drawerRoot
+{
+  z-index: 10;
+}
