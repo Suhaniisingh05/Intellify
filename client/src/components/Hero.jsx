@@ -15,7 +15,7 @@ const Hero = () => {
 
       <div onclick={() => navigate('/ai')} className='flex flex-wrap justify-center gap-5  mt-5 font-libre text-sm'>
         <button className='bg-[#819877] px-7 py-4 rounded-lg text-white hover:bg-[#6B8163] hover:scale-102 active:scale-95 transition	cursor-pointer'>Start creating now</button>
-        <button className='bg-[#FFFFFF] px-7 py-4 rounded-lg text-black hover:scale-102 active:scale-95 transition	cursor-pointer'>Watch demo</button>
+        {/* <button className='bg-[#FFFFFF] px-7 py-4 rounded-lg text-black hover:scale-102 active:scale-95 transition	cursor-pointer'>Watch demo</button> */}
       </div>
 
       <div className='flex items-center justify-center gap-3 mt-8 text-[#819877]'>
